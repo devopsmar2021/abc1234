@@ -1,0 +1,150 @@
+1348  git checkout bug100
+ 1349  git branch 
+ 1350  ls -ltr
+ 1351  touch a4 a5 a6 
+ 1352  git add a4
+ 1353  git commit -m "a4"
+ 1354  git add a5
+ 1355  git commit -m "a5"
+ 1356  git add a6
+ 1357  git commit -m "a6"
+ 1358  git push
+ 1359  git pull
+ 1360  git branch 
+ 1361  git checkout mastre
+ 1362  git checkout master
+ 1363  git checkout mastregit pull
+ 1364  git checkout mastre
+ 1365  git checkout master
+ 1366  git pull
+ 1367  ls -ltr
+ 1368  git checkout bug100
+ 1369  git ull
+ 1370  git pull
+ 1371  ls -ltr
+ 1372  git rebase master
+ 1373  ls -ltr
+ 1374  git log
+ 1375  ls -ltr
+ 1376  git pul
+ 1377  git pull
+ 1378  ls -ltr
+ 1379  git branch
+ 1380  git checkout master
+ 1381  ls -ltr
+ 1382  git merge bug100
+ 1383  git push
+ 1384  git log
+ 1385  cd ../abc213
+ 1386  cd ../abc123
+ 1387  git pull
+ 1388  git branch
+ 1389  git checkout -n bug104
+ 1390  git checkout -b bug104
+ 1391  ls -ltr
+ 1392  mkdir dir1
+ 1393  touch dir1/a{1..8}
+ 1394  ls -ltr dir1/a*
+ 1395  git add dir1/a1
+ 1396  git commit -m "a1"
+ 1397  git add dir1/a2
+ 1398  git commit -m "a2"
+ 1399  git add dir1/a3
+ 1400  git commit -m "a3"
+ 1401  git add dir1/a4
+ 1402  git commit -m "a4"
+ 1403  git add dir1/a5
+ 1404  git commit -m "a5"
+ 1405  git add dir1/a6
+ 1406  git commit -m "a6"
+ 1407  git add dir1/a7
+ 1408  git commit -m "a7"
+ 1409  git add dir1/a8
+ 1410  git commit -m "a8"
+ 1411  git push
+ 1412  git push -u origin bug104
+ 1413  git branch 
+ 1414  git checkout master
+ 1415  git merge --squash bug104
+ 1416  ls -ltr
+ 1417  git commit -m "bug104 fixed"
+ 1418  git push
+ 1419  git log
+ 1420  git branch 
+ 1421  git pull
+ 1422  git checkout -b bug110
+ 1423  ls -ltr
+ 1424  vi f1
+ 1425  vi f5
+ 1426  rm f3
+ 1427  git status
+ 1428  git add .
+ 1429  git status
+ 1430  git checkout master
+ 1431  ls -ltr
+ 1432  git checkout bug110
+ 1433  ls -ltr
+ 1434  git stash ls
+ 1435  git stash list
+ 1436  git stash 
+ 1437  git stash list
+ 1438  git status
+ 1439  ls -ltr
+ 1440  git checkout master
+ 1441  git checkout -b bug111
+ 1442  ls -ltr
+ 1443  touch f5
+ 1444  git add .
+ 1445  git commit -m "f5 cerated"
+ 1446  git push -u origin bug111
+ 1447  git chekcout master 
+ 1448  git checkout master 
+ 1449  git merge bug111
+ 1450  git push
+ 1451  git checkout bug110
+ 1452  ls -ltr
+ 1453  git stash list
+ 1454  git stash apply stash@{0}
+ 1455  git status
+ 1456  ls ltr
+ 1457  ls -ltr
+ 1458  vi f6
+ 1459  git add .
+ 1460  ls -ltr
+ 1461  git status
+ 1462  git commit -m "bug110 fixed"
+ 1463  git push -u origin bug110
+ 1464  git stash
+ 1465  git stash list
+ 1466  git stash clean
+ 1467  git stash clear
+ 1468  git stash list
+ 1469  ls -ltr
+ 1470  git branch 
+ 1471  git checkout master
+ 1472  git pull
+ 1473  ls -ltr
+ 1474  pwd
+ 1475  pwd
+ 1476  git branch 
+ 1477  git checkout -b bug112
+ 1478  git branch 
+ 1479  l s-ltr
+ 1480  ls -ltr
+ 1481  vi f5
+ 1482  ls -ltr
+ 1483  touch f6
+ 1484  git status
+ 1485  git add .
+ 1486  git commit -m "updated"
+ 1487  git push -u origin bug112
+ 1488  history 
+ 1489  cd ./
+ 1490  cd ../
+ 1491  mkdir abc12345
+ 1492  cd abc12345
+ 1493  ls -la
+ 1494  git init .
+ 1495  ls -la
+ 1496  cat .git/config
+ 1497  history -100
